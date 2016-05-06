@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.usablelabs.duedo.ShowActivity"
+    android:weightSum="1">
+
+    <include android:id="@+id/toolbar_main" layout="@layout/toolbar_main" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:id="@+id/dateView"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center_horizontal"
+            android:hint="Select Date" />
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="394dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:background="#ffffff">
+
+        <!-- Row 2 with 3 columns -->
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#fbbff5">
+            <TextView
+                android:id="@+id/List"
+                android:text="รายการ"
+                android:layout_weight="1"
+                android:background="#fbbff5"
+                android:textColor="#000000"
+                android:padding="18dip"
+                android:gravity="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/Revenue"
+                android:text="รายรับ"
+                android:layout_weight="1"
+                android:background="#fbbff5"
+                android:textColor="#04c004"
+                android:padding="18dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/Expense"
+                android:text="รายจ่าย"
+                android:layout_weight="1"
+                android:background="#fbbff5"
+                android:textColor="#fa0505"
+                android:padding="18dip"
+                android:gravity="center"
+                android:textSize="15dp" />
+
+        </TableRow>
+
+        <!-- Row 3 with 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:background="#fefefe">
+
+            <TextView
+                android:id="@+id/List22"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/Revenue22"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#04c004"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/Expense22"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#fa0505"
+                android:padding="10dip"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/List33"
+                android:layout_weight="1"
+                android:background="#feeafd"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Revenue33"
+                android:layout_weight="1"
+                android:background="#feeafd"
+                android:textColor="#04c004"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/Expense33"
+                android:layout_weight="1"
+                android:background="#feeafd"
+                android:textColor="#fa0505"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/List44"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Revenue44"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#04c004"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/Expense44"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#fa0505"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/List55"
+                android:layout_weight="1"
+                android:background="#feeafd"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Revenue55"
+                android:layout_weight="1"
+                android:background="#feeafd"
+                android:textColor="#04c004"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/Expense55"
+                android:layout_weight="1"
+                android:background="#feeafd"
+                android:textColor="#fa0505"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/List66"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Revenue66"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#04c004"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/Expense66"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#fa0505"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/List77"
+                android:layout_weight="1"
+                android:background="#feeafd"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Revenue77"
+                android:layout_weight="1"
+                android:background="#feeafd"
+                android:textColor="#04c004"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/Expense77"
+                android:layout_weight="1"
+                android:background="#feeafd"
+                android:textColor="#fa0505"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/List88"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Revenue88"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#04c004"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/Expense88"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#fa0505"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/List10"
+                android:text="รวม"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Revenue10"
+                android:layout_weight="1"
+                android:background="#fbbff5"
+                android:textColor="#04c004"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/Expense10"
+                android:layout_weight="1"
+                android:background="#fbbff5"
+                android:textColor="#fa0505"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+    </TableLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:background="#df53f4"
+        android:layout_marginTop="2dip" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="สรุป" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/Total"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

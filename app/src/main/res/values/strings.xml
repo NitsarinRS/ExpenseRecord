@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">XpenseRecord</string>
+    <string name="tasks">รายการบันทึก</string>
+    <string name="task_title">Title</string>
+    <string name="new_task">สร้างบันทึก</string>
+    <string name="calender">ปฏิทิน</string>
+    <string name="chart">กราฟ</string>
+    <string name="task">หน้าแรก</string>
+    <string name="save">Save</string>
+    <string name="no_task">ไม่มีรายการบันทึก</string>
+    <string name="task_content">Content</string>
+    <string name="unsaved_exit_alert">คุณยังไม่ได้เก็บข้อมูล คุณแน่ใจหรือไม่ว่าต้องการออกจากหน้านี้?</string>
+    <string name="title_is_required">กรุณากรอกข้อมูล</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure">คุณแน่ใจหรือไม่?</string>
+    <string name="edit_task">Edit Task</string>
+</resources>
